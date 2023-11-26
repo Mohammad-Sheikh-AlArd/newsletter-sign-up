@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- [solution](https://your-solution-url.com)
-- [live site](https://your-live-site-url.com)
+- [solution](https://github.com/Mohammad-Sheikh-AlArd/newsletter-sign-up.git)
+- [live site](https://mohammad-sheikh-alard.github.io/newsletter-sign-up/)
 
 ## My process
 
@@ -49,23 +49,18 @@ Users should be able to:
 
 ### What I learned
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
 ```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
+document.querySelector(".Form").style.scale = 0;
+setTimeout(() => {
+  document.querySelector(".Form").style.display = "none";
+  document.querySelector(".success-mesage").style.display = "flex";
+  document.querySelector(".success-mesage").style.scale = "100%";
+}, "200");
 ```
+
+This code allowed the zoom-out animation of the subscription form to be executed before the success message appeared, by giving it 0.2 seconds to execute.
 
 ## Author
 
 - Website - [Muhammad Sheikh alard](https://muhammad-sheikh-alard.web.app)
-- Frontend Mentor - [@Mohammad-Sheikh-AlArd](https://www.frontendmentor.io/profile/Mohammad-Sheikh-AlArd)\
+- Frontend Mentor - [@Mohammad-Sheikh-AlArd](https://www.frontendmentor.io/profile/Mohammad-Sheikh-AlArd)
